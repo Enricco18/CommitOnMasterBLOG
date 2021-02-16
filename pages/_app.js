@@ -5,9 +5,8 @@ import { Pannel } from '../components/Pannel';
 import { Content } from '../components/Content';
 
 const Container = styled.div`
-    display:flex;
     width:100vw;
-    height:100vh;
+    height:100vh;    
 `
 
 function MyApp({ Component, pageProps }) {

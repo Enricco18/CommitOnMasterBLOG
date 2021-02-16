@@ -2,7 +2,16 @@ import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
 
-
+body{
+    overflow-x: hidden;
+}
+a:active {
+    text-decoration:none;
+    outline:0;
+  background-color: transparent;
+  color:inherit;
+  border:0;
+}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -33,9 +42,6 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
-body {
-	line-height: 1;
-}
 
 ol, ul {
 	list-style: none;
@@ -103,14 +109,7 @@ html {
     -ms-text-size-adjust: 100%; /* 2 */
 }
 
-a:focus {
-    outline: thin dotted;
-}
 
-a:active,
-a:hover {
-    outline: 0;
-}
 
 img {
     border: 0; /* 1 */
